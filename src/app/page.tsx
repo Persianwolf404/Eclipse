@@ -8,8 +8,10 @@ export default function Home() {
       <div className="absolute inset-0 backdrop-blur-md bg-black/50 z-10" />
 
       {/* Your content */}
-      <div className="relative z-20 flex items-center justify-center h-full text-white flex flex-col">
-        <h1 className="text-4xl font-bold text-red-500 text-8xl md:text-9xl">ECLIPSE</h1>
+      <div className="relative z-20  items-center justify-center h-full text-white flex flex-col">
+        <h1 className=" font-bold text-red-500 text-8xl md:text-9xl">
+          ECLIPSE
+        </h1>
         <p className="text-center text-lg md:text-xl">
           When Creativity and Precision Align, <br /> Eclipse Happens
         </p>
