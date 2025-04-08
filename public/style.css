@@ -3,4 +3,16 @@
 body {
   padding: 0;
   margin: 0;
+  cursor: none;
+}
+
+* {
+  user-select: none; /* For most browsers */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For Internet Explorer */
+}
+
+img, a {
+  pointer-events: none; /* Disable dragging for images and links */
 }
