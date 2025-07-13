@@ -12,8 +12,6 @@
 
 ![ECLIPSE Preview](/public/eclipse-preview.gif)
 
-> Live Preview: [https://eclipses.site](https://eclipses.site)
-
 ---
 
 ## 🚀 Goals
