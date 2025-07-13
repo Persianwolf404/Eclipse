@@ -1,4 +1,4 @@
-# 🌑 ECLIPSE
+# 🌘 ECLIPSE
 
 [🌐 Visit Website → **eclipses.site**](https://eclipses.site)
 
