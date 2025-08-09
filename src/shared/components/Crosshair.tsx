@@ -3,9 +3,9 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
-import Crosshair from "../../public/images/crosshair.png";
+import crosshairImage from "../../../public/images/crosshair.png";
 import { create } from "zustand";
-import { createTextTransitionAnimation, setupCursorBlinking } from "@/animations/typing";
+import { createTextTransitionAnimation, setupCursorBlinking } from "@/shared/animations/typing";
 
 
 interface CrosshairStore {
@@ -203,8 +203,8 @@ export default function CrosshairCursor() {
           </div>
         </div>
       </div>
-      <span ref={crosshairIconRef} className="fixed pointer-events-none">
-        <Image src={Crosshair} width={45} height={45} alt="crosshair" />
+      <span ref={crosshairIconRef} className="fixed pointer-events-none z-50">
+        <Image src={crosshairImage} width={45} height={45} alt="crosshair" />
       </span>
     </div>
   );
